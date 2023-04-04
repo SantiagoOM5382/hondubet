@@ -9,7 +9,7 @@
 
         <!-- URL Base -->
         <meta name="url" content="{{ url('') }}">
-        <title>{{ config('app.name', 'Boliplay') }}</title>
+        <title>{{ config('app.name', 'Hondubet') }}</title>
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>

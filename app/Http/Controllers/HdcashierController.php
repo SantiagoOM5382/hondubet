@@ -7,11 +7,7 @@ use Illuminate\Http\Request;
 
 class HdcashierController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    // funcion index
     public function index()
     {
         return view('hdcashier.index');

@@ -9,12 +9,12 @@
 
         <!-- URL Base -->
         <meta name="url" content="{{ url('') }}">
-        <title>{{ config('app.name', 'Boliplay') }}</title>
+        <title>{{ config('app.name', 'Hondubet') }}</title>
         
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
         
  

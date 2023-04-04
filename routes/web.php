@@ -22,6 +22,11 @@ Route::get('/', function () {
 // hdcashier routes
 Route::resource('hdcashier', 'HdcashierController')->Middleware('auth');;
 Route::resource('hdcashier-form', 'FormhdcashierController');
+Route::post('/send-hdcashierform', 'FormhdcashierController@send');
+
+
+
+
 
 Auth::routes();
 
