@@ -1,0 +1,59 @@
+
+/* Imagen de fondo para dispositivos de escritorio */
+@media only screen and (min-width: 768px) {
+    .cashierbodyone {
+      background-image: url("../images/hdform/backgroundesktop.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+}
+
+/* Imagen de fondo para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .cashierbodyone {
+      background-image: url("../images/hdform/backgroundmobile.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+}
+  
+
+/* espacio */
+.bd-example-row-flex-cols .row {
+    min-height: auto;
+}
+
+
+/* color y forma del formulario */
+.styled-table-td {
+    padding: 3% 3%;
+    background-color: #00b1dd;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* hacer campos redondos */
+.redondos {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* popup sendhdcashier */
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 30px 30px 30px rgba(0,0,0,0.2);
+    font-size: 17;
+ }

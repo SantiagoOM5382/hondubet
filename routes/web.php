@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('formhdcashier.index');
 });
+
+
+// hdcashier routes
+Route::resource('hdcashier', 'HdcashierController')->Middleware('auth');;
+Route::resource('hdcashier-form', 'FormhdcashierController');
+Route::post('/send-hdcashierform', 'FormhdcashierController@send');
+
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
