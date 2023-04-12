@@ -25,22 +25,66 @@
     min-height: auto;
 }
 
-
+@media (max-width: 767px) {
+    .styled-table-td {
+      width: 100%;
+      height: auto;
+      padding: 1%;
+      margin: 1%;
+    }
+  }
 /* color y forma del formulario */
 .styled-table-td {
-    padding: 3% 3%;
+    padding: 4% 4%;
     background-color: #00b1dd;
     border-radius: 20px;
     font-weight: bold;
 }
 
+
 /* hacer campos redondos */
 .redondos {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+
+    border-radius: 30px;
     font-weight: bold;
     font-size: 15px;
+    
+}
+
+/* tamaño de letras form */
+.letter {
+    font-family: Arial;
+    padding-bottom: 0% !important;
+    font-size: 13px;
+    font-weight: 999;
+}
+
+/* botones sino */
+.yesno{
+    padding-right: 9px;
+}
+
+/* padding */
+.padding{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.paddingtwo{
+    padding-top: 100px;
+}
+.paddingtre{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* boton enviar */
+.btncssenv{
+    font-weight: 999;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 125px;
+    height: 40px;
+    font-family: arial;
+
 }
 
 
